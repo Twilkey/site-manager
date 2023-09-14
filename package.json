@@ -1,0 +1,73 @@
+{
+  "name": "site-manager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^2.36.0",
+    "@azure/msal-react": "^1.5.6",
+    "@octokit/auth-app": "^4.0.9",
+    "@octokit/auth-token": "^3.0.3",
+    "@octokit/core": "^4.2.0",
+    "@octokit/rest": "^19.0.7",
+    "@supabase/supabase-js": "^2.4.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "assert": "^2.0.0",
+    "bootstrap": "^5.2.3",
+    "buffer": "^6.0.3",
+    "constants-browserify": "^1.0.0",
+    "crypto-browserify": "^3.12.0",
+    "generate-api-key": "^1.0.2",
+    "he": "^1.2.0",
+    "html-entities": "^2.3.3",
+    "html-react-parser": "^3.0.12",
+    "marked": "^4.2.12",
+    "node-rsa": "^1.1.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-collapsible": "^2.10.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-loader-spinner": "^5.3.4",
+    "react-minimal-side-navigation": "^1.9.2",
+    "react-multilevel-sidebar": "^1.0.4",
+    "react-router-dom": "^6.7.0",
+    "react-scripts": "5.0.1",
+    "react-tabs": "^6.0.0",
+    "reactjs-popup": "^2.0.5",
+    "rsuite": "^5.29.0",
+    "stream-browserify": "^3.0.0",
+    "universal-github-app-jwt": "^2.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.0.0"
+  }
+}
